@@ -16,3 +16,7 @@ $("ul").append("<li><i class='fa fa-trash'></i> " + toDoText + "</li>");
 }
 
 });
+
+$(".fa-plus").click(function(){
+	$("input[type='text'").fadeToggle();
+});

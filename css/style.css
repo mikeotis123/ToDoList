@@ -22,6 +22,7 @@ input{
 	padding: 13px 13px 13px 20px;
 	box-sizing: border-box;
 	color:#2980b9;
+	border: 3px solid rgba(0,0,0,0);
 }
 input:focus{
 	background: #fff;
@@ -51,4 +52,27 @@ h1 {
 }
 body{
 	font-family: Roboto;
+	background: #BBD2C5;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #292E49, #536976, #BBD2C5);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #292E49, #536976, #BBD2C5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.fa-plus {
+	float: right;
+	
+}
+i {
+	background: #e74c3c;
+	height: 30px;
+	margin-right: 20px;
+	text-align: center;
+	color:white;
+	width: 0;
+	display: inline-block;
+	transition: 0.2s linear;
+
+}
+li:hover i{
+	width: 40px;
+	opacity: 1.0;
 }
